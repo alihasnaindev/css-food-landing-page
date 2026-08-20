@@ -1,0 +1,131 @@
+body {
+    background: url(images/bgimg.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+
+/* Header */
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 25px;
+}
+
+.left img {
+    width: 128px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 35px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+}
+
+
+/* Navigation */
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar li a:hover {
+    background-color: rgb(108, 45, 45);
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+
+/* Order Button */
+
+.btn {
+    background-color: rgb(33, 59, 10);
+    color: rgb(242, 242, 235);
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 15px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+/* Contact Form */
+
+.container {
+    border: 3px solid grey;
+    border-radius: 30px;
+    padding: 60px 30px;
+    margin: 67px 69px;
+    display: inline-block;
+    float: right;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+/* Form Inputs */
+
+.form-group input,
+.form-group textarea {
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 9px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-group textarea {
+    height: 20px;
+}
+
+
+/* Submit Button */
+
+.container button {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 15px auto 0;
+    border: none;
+    border-radius: 7px;
+    background-color: #f5c91f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #d9ad00;
+}
